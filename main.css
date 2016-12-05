@@ -1,0 +1,138 @@
+/* En till något rörig CSS-fil till ToDo-listan - Examination 2 */
+
+body {
+	background-color: #0B2B39;
+}
+
+
+#thingsDo {
+	color: #FB5D3A;
+	font-family: "Papyrus";
+	font-size: 30px;
+	text-align: center;
+}
+
+#addThings {
+	color: #EED33D;
+	font-family: "Papyrus";
+	font-size: 30px;
+	text-align: center;
+}
+
+#usersText {
+	margin-left: 67px;
+	clear: both;
+}
+
+#myButton {
+	background-color: transparent;
+	border-style: 1px solid;
+	border-color: #FEFEFE;
+	color: #FB5D3A;
+	margin: 10px; 
+	margin-left: 67px;
+	font-family: Garamond;
+}
+
+#thingsDone {
+	color: #6BBF29;
+	font-family: "Papyrus";
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+#listAddedStuff {
+	color: #FEFEFE;
+	font-family: "Papyrus";
+	width: 80%;
+}
+
+#listStuffDone {
+	color: #FEFEFE;
+	font-family: "Papyrus";	
+}
+
+#myDeleteButton {
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+	background-color: transparent;
+	border-style: 1px solid;
+	border-color: #FEFEFE;
+	color: #6BBF29;
+	font-family: Garamond;
+	font-color: white;
+}
+
+#div1 {
+	position: relative;
+	display: inline-block;
+	color: #FEFEFE;
+	border-style: solid;
+	width: 300px;
+	height: 500px;
+	margin: 50px;
+	margin-top: 30px;
+	float: left;
+}
+
+#div2 {
+	position: relative;
+	display: inline-block;
+	color: #FEFEFE;
+	background-color: #0B2B39;
+	border-style: solid;
+	width: 300px;
+	height: 500px;
+	margin: 50px;
+	margin-top: 30px;
+	float: left;
+	word-wrap: break-word;
+}
+
+#div3 {
+	position: relative;
+	display: inline-block;
+	color: #FEFEFE;
+	border-style: solid;
+	width: 300px;
+	height: 500px;
+	margin: 50px;
+	margin-top: 30px;
+	float: left;
+	word-wrap: break-word;
+}
+
+.done{
+	position: absolute;
+	right: 80px;
+	background-color: transparent;
+	border-style: 1px solid;
+	border-color: #FEFEFE;
+	color: #EED33D;
+	font-family: Garamond;
+	float: right;
+}
+
+.delete{
+	position: absolute;
+	right: 25px;
+	background-color: transparent;
+	border-style: 1px solid;
+	border-color: #FEFEFE;
+	color: #EED33D;
+	font-family: Garamond;
+	float: right;
+}
+
+.doneDelete{
+	position: absolute;
+	right: 25px;
+	background-color: transparent;
+	border-style: 1px solid;
+	border-color: #FEFEFE;
+	color: #6BBF29;
+	font-family: Garamond;
+}
+

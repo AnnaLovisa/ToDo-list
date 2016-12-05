@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo-app</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+</head>
+<body id="background" background="wheat.png">
+<div id="div1">
+	<h2 id="thingsDo">Things to do</h2>
+	<input type="text" id="usersText" placeholder="Type in a thing to do" maxlength="18">
+	<button id="myButton" onclick="addToDoList()">Add to list</button>
+</div>
+<div id="div2">
+	<h2 id="addThings">Added things</h2>
+	<ul id="listAddedStuff"></ul>
+</div>
+<div id="div3">
+	<h2 id="thingsDone">List of things done</h2>
+	<ul id="listStuffDone"></ul>
+	<button id="myDeleteButton" onclick="deleteList()">Delete all things</button>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
