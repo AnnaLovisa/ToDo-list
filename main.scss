@@ -1,0 +1,123 @@
+$primary-color: #0B2B39;
+$font-color-1: #FB5D3A;
+$font-color-2: #EED33D;
+$font-color-3: #6BBF29;
+$border-color: #FEFEFE;
+
+html {
+	width: 60%;
+}
+
+body {
+	background-color: $primary-color;
+	font-size: 60%;
+}
+
+#thingsDo, #addThings, #thingsDone {
+	font-family: "Papyrus";
+	font-size: 1.875rem;
+	text-align: center;
+}
+
+#thingsDo {
+	color: $font-color-1;
+}
+
+#addThings {
+	color: $font-color-2;
+}
+
+#thingsDone {
+	color: $font-color-3;	
+}
+
+
+#usersText {
+	margin-left: 4.188rem;
+	clear: both;
+}
+
+#myButton, #myDeleteButton {
+	background-color: transparent;
+	border: 1px solid $border-color;
+	font-family: Garamond;
+}
+
+#myButton {
+	color: $font-color-1;
+	margin: 0.625rem; 
+	margin-left: 4.188rem;
+}
+
+#listAddedStuff, #listStuffDone {
+	color: $border-color;
+	font-family: "Papyrus";
+}
+
+#listStuffDone {
+	width: 80%;
+}
+
+#myDeleteButton {
+	position: absolute;
+	bottom: 3.125rem;
+	left: 6.250rem;
+	color: $font-color-3;
+}
+
+#div1, #div2, #div3 {
+	position: relative;
+	display: inline-block;
+	border: solid $border-color;
+	width: 18.750rem;
+	height: 31.250rem;
+	margin: 3.125rem;
+	margin-top: 1.875rem;
+	float: left;
+}
+
+#div2 {
+	background-color: $primary-color;
+}
+
+#div2, #div3 {
+	word-wrap: break-word;
+}
+
+.done, .delete, .doneDelete {
+	position: absolute;
+	background-color: transparent;
+	border: 1px solid $border-color;
+	font-family: Garamond;
+}
+
+.done, .delete {
+	color: $font-color-2;
+	float: right;
+}
+
+.done {
+	right: 1.125rem;
+}
+
+.delete{
+	right: 1.563rem;
+}
+
+.doneDelete{
+	right: 1.563rem;
+	color: $font-color-3;
+}
+
+
+@media only screen and(min-width: 768px){
+
+	html {
+	width: 100%;
+}
+
+	body {
+		font-size: 100%;
+	}
+
+}

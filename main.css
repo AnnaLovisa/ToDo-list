@@ -1,138 +1,92 @@
-/* En till något rörig CSS-fil till ToDo-listan - Examination 2 */
+html {
+  width: 60%; }
 
 body {
-	background-color: #0B2B39;
-}
+  background-color: #0B2B39;
+  font-size: 60%; }
 
+#thingsDo, #addThings, #thingsDone {
+  font-family: "Papyrus";
+  font-size: 1.875rem;
+  text-align: center; }
 
 #thingsDo {
-	color: #FB5D3A;
-	font-family: "Papyrus";
-	font-size: 30px;
-	text-align: center;
-}
+  color: #FB5D3A; }
 
 #addThings {
-	color: #EED33D;
-	font-family: "Papyrus";
-	font-size: 30px;
-	text-align: center;
-}
-
-#usersText {
-	margin-left: 67px;
-	clear: both;
-}
-
-#myButton {
-	background-color: transparent;
-	border-style: 1px solid;
-	border-color: #FEFEFE;
-	color: #FB5D3A;
-	margin: 10px; 
-	margin-left: 67px;
-	font-family: Garamond;
-}
+  color: #EED33D; }
 
 #thingsDone {
-	color: #6BBF29;
-	font-family: "Papyrus";
-	font-size: 30px;
-	text-align: center;
-	
-}
+  color: #6BBF29; }
 
-#listAddedStuff {
-	color: #FEFEFE;
-	font-family: "Papyrus";
-	width: 80%;
-}
+#usersText {
+  margin-left: 4.188rem;
+  clear: both; }
+
+#myButton, #myDeleteButton {
+  background-color: transparent;
+  border: 1px solid #FEFEFE;
+  font-family: Garamond; }
+
+#myButton {
+  color: #FB5D3A;
+  margin: 0.625rem;
+  margin-left: 4.188rem; }
+
+#listAddedStuff, #listStuffDone {
+  color: #FEFEFE;
+  font-family: "Papyrus"; }
 
 #listStuffDone {
-	color: #FEFEFE;
-	font-family: "Papyrus";	
-}
+  width: 80%; }
 
 #myDeleteButton {
-	position: absolute;
-	bottom: 50px;
-	left: 100px;
-	background-color: transparent;
-	border-style: 1px solid;
-	border-color: #FEFEFE;
-	color: #6BBF29;
-	font-family: Garamond;
-	font-color: white;
-}
+  position: absolute;
+  bottom: 3.125rem;
+  left: 6.250rem;
+  color: #6BBF29; }
 
-#div1 {
-	position: relative;
-	display: inline-block;
-	color: #FEFEFE;
-	border-style: solid;
-	width: 300px;
-	height: 500px;
-	margin: 50px;
-	margin-top: 30px;
-	float: left;
-}
+#div1, #div2, #div3 {
+  position: relative;
+  display: inline-block;
+  border: solid #FEFEFE;
+  width: 18.750rem;
+  height: 31.250rem;
+  margin: 3.125rem;
+  margin-top: 1.875rem;
+  float: left; }
 
 #div2 {
-	position: relative;
-	display: inline-block;
-	color: #FEFEFE;
-	background-color: #0B2B39;
-	border-style: solid;
-	width: 300px;
-	height: 500px;
-	margin: 50px;
-	margin-top: 30px;
-	float: left;
-	word-wrap: break-word;
-}
+  background-color: #0B2B39; }
 
-#div3 {
-	position: relative;
-	display: inline-block;
-	color: #FEFEFE;
-	border-style: solid;
-	width: 300px;
-	height: 500px;
-	margin: 50px;
-	margin-top: 30px;
-	float: left;
-	word-wrap: break-word;
-}
+#div2, #div3 {
+  word-wrap: break-word; }
 
-.done{
-	position: absolute;
-	right: 80px;
-	background-color: transparent;
-	border-style: 1px solid;
-	border-color: #FEFEFE;
-	color: #EED33D;
-	font-family: Garamond;
-	float: right;
-}
+.done, .delete, .doneDelete {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #FEFEFE;
+  font-family: Garamond; }
 
-.delete{
-	position: absolute;
-	right: 25px;
-	background-color: transparent;
-	border-style: 1px solid;
-	border-color: #FEFEFE;
-	color: #EED33D;
-	font-family: Garamond;
-	float: right;
-}
+.done, .delete {
+  color: #EED33D;
+  float: right; }
 
-.doneDelete{
-	position: absolute;
-	right: 25px;
-	background-color: transparent;
-	border-style: 1px solid;
-	border-color: #FEFEFE;
-	color: #6BBF29;
-	font-family: Garamond;
-}
+.done {
+  right: 1.125rem; }
 
+.delete {
+  right: 1.563rem; }
+
+.doneDelete {
+  right: 1.563rem;
+  color: #6BBF29; }
+
+@media only screen and (min-width: 768px) {
+  html {
+    width: 100%; }
+
+  body {
+    font-size: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
