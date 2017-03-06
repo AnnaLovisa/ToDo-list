@@ -3,7 +3,7 @@ html {
 
 body {
   background-color: #0B2B39;
-  font-size: 60%; }
+  font-size: 100%; }
 
 #thingsDo, #addThings, #thingsDone {
   font-family: "Papyrus";
@@ -73,7 +73,7 @@ body {
   float: right; }
 
 .done {
-  right: 1.125rem; }
+  right: 5.0000rem; }
 
 .delete {
   right: 1.563rem; }
